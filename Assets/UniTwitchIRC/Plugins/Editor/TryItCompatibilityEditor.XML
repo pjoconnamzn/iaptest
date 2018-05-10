@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TryItCompatibilityEditor</name>
+    </assembly>
+    <members>
+        <member name="T:TryItCompatibilityEditor.ExampleScenesWindow">
+            <summary>
+            Opens example scene picker
+            </summary>
+        </member>
+        <member name="T:TryItCompatibilityEditor.ShowTryIt">
+            <summary>
+            Checks to show TryIt version prompt to new user
+            </summary>
+        </member>
+        <member name="M:TryItCompatibilityEditor.ShowTryIt.DrawTryItLabel(System.Boolean)">
+            <summary>
+            Uses EditorGUILayout.Label to show that product is try it version
+            </summary>
+            <param name="isTryIt">Whether is or is not try it version</param>
+        </member>
+        <member name="M:TryItCompatibilityEditor.ShowTryIt.DrawOpenTryItButton(System.Boolean)">
+            <summary>
+            Uses GUILayout.Button to show that product is try it version and open the window if clicked
+            </summary>
+            <param name="isTryIt">Whether is or is not try it version</param>
+        </member>
+    </members>
+</doc>
